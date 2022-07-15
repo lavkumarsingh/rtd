@@ -2,7 +2,9 @@ title: jekyll-rtd-theme
 description: Just another documentation theme compatible with GitHub Pages
 
 theme: null
-repository: ""
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://lavkumarsingh.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+repository: lavkumarsingh/rtd
 # debug:
 #   compress: true
 #   dist: false
@@ -10,6 +12,8 @@ repository: ""
 
 readme_index:
   with_frontmatter: true
+
+remote_theme: rundocs/jekyll-rtd-theme
 
 plugins:
   - jemoji
